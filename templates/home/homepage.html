@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div>
+            <br>
+            <h1 class="text-left">Welcome to GOLDENFLY cosmetics</h1>
+        </div>
+        <br>
+        <div>
+            <p>Masti, creme, loțiuni, și multă atenție, </p>
+            <p>Sunt cheia pentru o piele frumoasă. </p>
+            <p> Îngrijirea pielii este o formă de artă, </p>
+            <p> Care ne face să ne simțim cu adevărat bine-veniți în lumea aceasta minunată. </p>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-image: url("{% static 'images/Background.PNG' %}");
+            background-size: cover;
+            <img src="{% static 'images/Picture_1.PNG' %}" alt="Picture">
+        }
+    </style>
+{% endblock %}
